@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="{{ '/' | relative_url }}" class="site-title">DH340</a>
+                <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/ai-concepts/' | relative_url }}">AI Concepts</a></li>
+                    <li><a href="{{ '/model-testing/' | relative_url }}">Model Testing</a></li>
+                    <li><a href="{{ '/data-center/' | relative_url }}">Data Center Visit</a></li>
+                    <li><a href="{{ '/text-analysis/' | relative_url }}">Text Analysis</a></li>
+                    <li><a href="{{ '/honors-project/' | relative_url }}">Honors Project</a></li>
+                    <li><a href="{{ '/materials/' | relative_url }}">Materials</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content">
+        {{ content }}
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>Michigan State University | Department of History</p>
+            <p>Built for DH340: Digital Humanities & AI Literacy</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.setAttribute('aria-expanded', 
+                this.classList.contains('active'));
+        });
+    </script>
+</body>
+</html>
