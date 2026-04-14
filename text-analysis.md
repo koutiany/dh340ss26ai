@@ -21,6 +21,13 @@ title: Text Analysis Project
 </section>
 
 <section class="section">
+    <figure class="image-placeholder" style="margin: 2rem 0; padding: 2rem; background: #f3f4f6; border-radius: 8px; text-align: center;">
+        <p style="color: #6b7280; font-style: italic;">[IMAGE PLACEHOLDER: Topic modeling visualization or project screenshot]</p>
+        <p style="font-size: 0.875rem; color: #6b7280;">Upload to: <code>assets/images/</code></p>
+    </figure>
+</section>
+
+<section class="section">
     <h2>Topic Modeling Explained</h2>
     <div class="content-card">
         <h3>What is Topic Modeling?</h3>

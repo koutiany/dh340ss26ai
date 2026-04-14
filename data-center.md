@@ -18,6 +18,13 @@ title: Data Center Visit
 </section>
 
 <section class="section">
+    <figure class="image-placeholder" style="margin: 2rem 0; padding: 2rem; background: #f3f4f6; border-radius: 8px; text-align: center;">
+        <p style="color: #6b7280; font-style: italic;">[IMAGE PLACEHOLDER: Photo from the data center visit]</p>
+        <p style="font-size: 0.875rem; color: #6b7280;">Upload to: <code>assets/images/</code></p>
+    </figure>
+</section>
+
+<section class="section">
     <h2>What We Experienced</h2>
     
     <div class="two-column">

@@ -3,9 +3,12 @@ layout: default
 title: Home
 ---
 
-<section class="hero">
-    <h1>Demystifying AI</h1>
-    <p>Exploring artificial intelligence through digital humanities at Michigan State University</p>
+<section class="section">
+    <figure class="image-placeholder" style="margin: 2rem 0; padding: 2rem; background: #f3f4f6; border-radius: 8px; text-align: center;">
+        <p style="color: #6b7280; font-style: italic;">[IMAGE PLACEHOLDER: Course photo or group photo]</p>
+        <p style="font-size: 0.875rem; color: #6b7280;">Upload an image to: <code>assets/images/</code> then update this line</p>
+        <p style="font-size: 0.875rem; color: #6b7280;">Use: <code>![Course photo](/dh340ss26ai/assets/images/your-image.jpg)</code></p>
+    </figure>
 </section>
 
 <section class="section">

@@ -9,6 +9,13 @@ title: AI Concepts
 </section>
 
 <section class="section">
+    <figure class="image-placeholder" style="margin: 2rem 0; padding: 2rem; background: #f3f4f6; border-radius: 8px; text-align: center;">
+        <p style="color: #6b7280; font-style: italic;">[IMAGE PLACEHOLDER: Neural network diagram or AI illustration]</p>
+        <p style="font-size: 0.875rem; color: #6b7280;">Upload to: <code>assets/images/</code></p>
+    </figure>
+</section>
+
+<section class="section">
     <h2>What is Artificial Intelligence?</h2>
     <p>
         Artificial Intelligence refers to the simulation of human intelligence in machines that are 
