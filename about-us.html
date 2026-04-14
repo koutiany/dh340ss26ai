@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Us - DH340 at Michigan State University">
+    <title>About Us | DH340 - AI & Digital Humanities</title>
+    <link rel="stylesheet" href="/dh340ss26ai/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .person-section {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: #f9fafb;
+            border-radius: 12px;
+        }
+        .person-section.reverse {
+            flex-direction: row-reverse;
+        }
+        .person-image {
+            flex: 0 0 200px;
+        }
+        .person-image img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #18453B;
+        }
+        .person-content {
+            flex: 1;
+        }
+        .person-content h3 {
+            color: #18453B;
+            font-size: 1.5rem;
+            margin-bottom: 0.25rem;
+        }
+        .person-role {
+            color: #6b7280;
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+        }
+        .person-content p {
+            color: #374151;
+            line-height: 1.6;
+        }
+        @media (max-width: 600px) {
+            .person-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            .person-section.reverse {
+                flex-direction: column;
+            }
+            .person-image {
+                flex: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="/dh340ss26ai/" class="site-title"><img src="/dh340ss26ai/img/Spartan-Helmet_White.png" alt="MSU Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">DH340</a>
+                <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="/dh340ss26ai/">Home</a></li>
+                    <li><a href="/dh340ss26ai/about-us.html">About Us</a></li>
+                    <li><a href="/dh340ss26ai/ai-concepts.html">AI Concepts</a></li>
+                    <li><a href="/dh340ss26ai/model-testing.html">Model Testing</a></li>
+                    <li><a href="/dh340ss26ai/data-center.html">Data Center Visit</a></li>
+                    <li><a href="/dh340ss26ai/text-analysis.html">Text Analysis</a></li>
+                    <li><a href="/dh340ss26ai/honors-project.html">Honors Project</a></li>
+                    <li><a href="/dh340ss26ai/materials.html">Materials</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content">
+
+<section class="hero" style="padding: 3rem 2rem;">
+    <h1>About Us</h1>
+    <p>Meet the team behind this project</p>
+</section>
+
+<section class="section">
+    
+    <div class="person-section">
+        <div class="person-image">
+            <img src="/dh340ss26ai/img/placeholder-student1.jpg" alt="Student 1">
+        </div>
+        <div class="person-content">
+            <h3>Student 1</h3>
+            <p class="person-role">Major, Year</p>
+            <p>[Short bio text goes here. Add information about their background, interests, or contribution to the project.]</p>
+        </div>
+    </div>
+
+    <div class="person-section reverse">
+        <div class="person-image">
+            <img src="/dh340ss26ai/img/placeholder-student2.jpg" alt="Student 2">
+        </div>
+        <div class="person-content">
+            <h3>Student 2</h3>
+            <p class="person-role">Major, Year</p>
+            <p>[Short bio text goes here. Add information about their background, interests, or contribution to the project.]</p>
+        </div>
+    </div>
+
+    <div class="person-section">
+        <div class="person-image">
+            <img src="/dh340ss26ai/img/placeholder-student3.jpg" alt="Student 3">
+        </div>
+        <div class="person-content">
+            <h3>Student 3</h3>
+            <p class="person-role">Major, Year</p>
+            <p>[Short bio text goes here. Add information about their background, interests, or contribution to the project.]</p>
+        </div>
+    </div>
+
+    <div class="person-section reverse">
+        <div class="person-image">
+            <img src="/dh340ss26ai/img/placeholder-instructor.jpg" alt="Instructor">
+        </div>
+        <div class="person-content">
+            <h3>Instructor</h3>
+            <p class="person-role">Title / Role</p>
+            <p>[Short bio text goes here. Add information about their academic background, research interests, or teaching focus.]</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="section">
+    <p><a href="/dh340ss26ai/">&larr; Back to Home</a></p>
+</section>
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>Michigan State University | Department of History</p>
+            <p>Built for DH340: Digital Humanities & AI Literacy</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.setAttribute('aria-expanded', this.classList.contains('active'));
+        });
+    </script>
+</body>
+</html>
