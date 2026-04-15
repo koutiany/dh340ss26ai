@@ -9,40 +9,36 @@ This repository hosts the course website for DH340, where students learn about A
 ## Course Components
 
 - **AI Concepts**: Machine learning, neural networks, large language models, and generative AI
+- **Model Testing**: Hands-on exploration of open-source language models
 - **Data Center Visit**: Physical infrastructure grounding digital concepts
 - **Text Analysis Project**: Comparing AI-assisted and code-based topic modeling approaches
+- **Honors Project**: Student research on chatbots from major news publishers
 
 ## Website Structure
 
-- `index.md` - Home page with course overview
-- `ai-concepts.md` - AI fundamentals and key concepts
-- `data-center.md` - Data center visit experience
-- `text-analysis.md` - Final project details
-- `materials.md` - Weekly course materials
-- `_layouts/` - Jekyll layout templates
+- `index.html` - Home page
+- `about-us.html` - Meet the team
+- `ai-concepts.html` - AI fundamentals and key concepts
+- `model-testing.html` - Language model comparisons
+- `data-center.html` - Data center visit experience
+- `text-analysis.html` - Final project details
+- `honors-project.html` - Student honors project
+- `materials.html` - Weekly course materials
+- `img/` - Images and logos
 - `assets/css/` - Styling
 
-## Development
+## Editing the Website
 
-This site uses Jekyll for GitHub Pages. To run locally:
+Students can edit content directly on GitHub:
 
-```bash
-# Clone the repository
-git clone https://github.com/koutiany/dh340ss26ai.git
-cd dh340ss26ai
-
-# Install dependencies (macOS)
-bundle install
-
-# Run the server
-bundle exec jekyll serve
-```
-
-Visit `http://localhost:4000` to preview the site.
+1. Go to the repository on GitHub.com
+2. Click any `.html` file
+3. Click the pencil icon to edit
+4. Make changes and commit
 
 ## Publishing
 
-This site is designed for GitHub Pages. Push to the `main` branch and GitHub Pages will automatically build and publish.
+This site is hosted on GitHub Pages at: https://koutiany.github.io/dh340ss26ai/
 
 ## Design
 
