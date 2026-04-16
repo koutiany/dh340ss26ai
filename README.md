@@ -1,6 +1,6 @@
-# Demystifying AI: A Digital Humanities Course
+# DH340 Spring Semester 2026: Demystifying Artificial Intelligence
+You found us! We built this website as the final project for this course DH340 (after already produced two posters haha!). The goal of this website is to showcase our learning journey and provide insights for other curious Spartans who might want to learn more about AI.
 
-A course website exploring artificial intelligence through digital humanities at Michigan State University.
 
 ## Overview
 
