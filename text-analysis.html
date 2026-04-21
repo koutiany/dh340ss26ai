@@ -50,19 +50,11 @@
                 In our final collaborative project, the class compared two approaches of doing text analysis, one powered by AI, and one that's not:
             </p>
             <ul>
-                <li><strong>AI-Assisted Topic Modeling:</strong> Using ProQuest TDM's service</li>
+                <li><strong>AI-Assisted Topic Modeling:</strong> Using ProQuest TDM's built-in 'Visualization' service</li>
                 <li><strong>Python-Based LDA:</strong> Developing a Latent Dirichlet Allocation workflow in Jupyter
                     notebook</li>
             </ul>
         </section>
-<section class="section">
-            <h2>The Dataset</h2>
-            <p>
-                The dataset covered nearly fifteen months of relevant news articles on data centers in Michigan.
-                 There were nearly 500 articles in total, gathered by ProQuest TDM.
-            </p>
-        </section>
-       
         <section class="section">
             <figure class="image-placeholder"
                 style="margin: 2rem 0; padding: 2rem; background: #f3f4f6; border-radius: 8px; text-align: center;">
@@ -79,7 +71,9 @@
                 <p>
                     Topic modeling is an unsupervised machine learning technique that automatically identifies
                     themes or "topics" within a collection of documents. It works by finding groups of words
-                    that frequently appear together, assuming these represent coherent topics.
+                    that frequently appear together, assuming these represent coherent topics. The dataset we analyzed covered 
+                    nearly fifteen months of relevant news articles on data centers in Michigan.
+                 There were nearly 500 articles in total.
                 </p>
             </div>
         </section>
@@ -89,21 +83,21 @@
 
             <div class="two-column">
                 <div class="content-card">
-                    <h3>ProQuest TDM Service</h3>
+                    <h3>ProQuest TDM Visualization Service</h3>
                     <p>
                         An AI-assisted topic modeling service that provides a user-friendly interface for
-                        text analysis. The service handles preprocessing and topic extraction automatically.
+                        text analysis. The service handles preprocessing and topic extraction automatically and in minutes.
                     </p>
                     <h4>Pros:</h4>
                     <ul>
-                        <li>Easy to use, minimal coding required</li>
+                        <li>Easy to use, no coding required</li>
                         <li>Quick results</li>
                         <li>Handles preprocessing automatically</li>
                     </ul>
-                    <h4>Considerations:</h4>
+                    <h4>Cons:</h4>
                     <ul>
-                        <li>Less control over parameters</li>
-                        <li>"Black box" preprocessing decisions</li>
+                        <li>Less control/understanding over how data was processed</li>
+                        <li>Some topics had random or unrelated words, and words that overlapped between sections.</li>
                     </ul>
                 </div>
                 <div class="content-card">
@@ -114,7 +108,8 @@
                     </p>
                     <h4>Pros:</h4>
                     <ul>
-                        <li>Full control over preprocessing</li>
+                        <li>Full control over preprocessing, including ability to remove 
+                        duplicate words</li>
                         <li>Transparent methodology</li>
                         <li>Customizable parameters</li>
                     </ul>
