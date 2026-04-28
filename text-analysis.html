@@ -57,20 +57,6 @@
         </section>
 
         <section class="section">
-            <h2>Topic Modeling Explained</h2>
-            <div class="content-card">
-                <h3>What is Topic Modeling?</h3>
-                <p>
-                    Topic modeling is an unsupervised machine learning technique that automatically identifies
-                    themes or "topics" within a collection of documents. It works by finding groups of words
-                    that frequently appear together, assuming these represent coherent topics. The dataset we analyzed covered 
-                    nearly fifteen months of relevant news articles on data centers in Michigan.
-                 There were nearly 500 articles in total.
-                </p>
-            </div>
-        </section>
-
-        <section class="section">
             <h2>The Two Approaches</h2>
 
             <div class="two-column">
@@ -113,7 +99,21 @@
                 </div>
             </div>
         </section>
-<section class="section">
+        <section class="section">
+            <h2>Topic Modeling Explained</h2>
+            <div class="content-card">
+                <h3>What is Topic Modeling?</h3>
+                <p>
+                    Topic modeling is an unsupervised machine learning technique that automatically identifies
+                    themes or "topics" within a collection of documents. It works by finding groups of words
+                    that frequently appear together, assuming these represent coherent topics. The dataset we analyzed covered 
+                    nearly fifteen months of relevant news articles on data centers in Michigan.
+                 There were nearly 500 articles in total.
+                </p>
+            </div>
+        </section>
+        
+        <section class="section">
             <div class="photo-gallery">
                 <figure class="gallery-item">
                     <img src="/dh340ss26ai/img/TopicModelingGraphics.jpg" alt="Topic Modeling results" onclick="openLightbox(this)">
@@ -126,7 +126,7 @@
             <div class="highlight-box">
                 <h3>Why Transparency Matters</h3>
                 <p>
-                    By comparing these two approaches, students discovered how preprocessing decisions and
+                    By comparing these two approaches, we discovered how preprocessing decisions and
                     parameter choices shape topic modeling outcomes. The same data can reveal different
                     "topics" depending on how it's processed and analyzed.
                 </p>
@@ -143,10 +143,6 @@
                 <li>
                     <strong>Parameter Sensitivity:</strong> The number of topics, iteration count, and other
                     parameters influence outcomes
-                </li>
-                <li>
-                    <strong>Interpretive Choices:</strong> Researchers make many implicit choices that shape
-                    what the data "reveals"
                 </li>
                 <li>
                     <strong>Reproducibility:</strong> Transparent code-based approaches enable others to
